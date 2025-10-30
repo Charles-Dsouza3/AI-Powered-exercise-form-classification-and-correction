@@ -108,28 +108,23 @@ The system currently supports **4 exercise classes**:
 
 ```
 AI-Powered-Exercise-Form-Classification/
-├── app.py                      # Main GUI application
-├── train_model.py              # Model training pipeline
-├── data_collection.py          # Data collection utilities
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
-│
 ├── data2/                      # Training data directory
 │   ├── curl_correct/          # Correct bicep curl sequences
 │   ├── curl_incorrect/        # Incorrect bicep curl sequences
 │   ├── press_correct/         # Correct shoulder press sequences
 │   └── press_incorrect/       # Incorrect shoulder press sequences
 │
-├── models/                     # Saved trained models
-│   └── exercise_form_model.h5 # Production model
+├── src/                      # Training data directory
+│   ├── app.py                      # Main GUI applications
+│   ├── data_collection.py          # Data collection utilities
+│   ├── train_model.py              # Model training pipeline
 │
-├── logs/                       # Training logs
-│   └── tensorboard/           # TensorBoard logs
+├── videos/
 │
-└── results/                    # Training results
-    ├── confusion_matrix.png   # Model evaluation
-    ├── roc_curves.png         # ROC analysis
-    └── training_history.png   # Training metrics
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+
+
 ```
 
 ---
@@ -248,7 +243,7 @@ python train_model.py
 - **Epochs**: 100 (with early stopping)
 - **Batch Size**: 16
 - **Learning Rate**: 0.001 (with ReduceLROnPlateau)
-- **Train/Val/Test Split**: 65/15/20
+- **Train/Val/Test Split**: 68/12/20
 - **Sequence Length**: 30 frames
 
 **Training Features:**
@@ -467,7 +462,7 @@ If you use this project in your research or applications, please cite:
 
 ```bibtex
 @software{exercise_form_classifier,
-  author = {Your Name},
+  author = {Charles Dsouza, Malhar Rane},
   title = {AI-Powered Exercise Form Classification and Correction System},
   year = {2025},
   url = {https://github.com/yourusername/AI-Powered-Exercise-Form-Classification}
@@ -496,10 +491,15 @@ Contributions are welcome! Please follow these steps:
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+**Charles Dsouza**
+- GitHub: [@Charles-Dsouza3]([https://github.com/yourusername](https://github.com/Charles-Dsouza3))
+- Email: dsouzacharles26@gmail.com
+- LinkedIn: [Charles Dsouza](https://www.linkedin.com/in/charles-dsouza26/)
+
+**Malhar Rane**
+- GitHub: [@MalharRane]([https://github.com/yourusername](https://github.com/MalharRane))
+- Email: malharrane@gmail.com
+- LinkedIn: [Malhar Rane](https://www.linkedin.com/in/malharane/)
 
 ---
 
