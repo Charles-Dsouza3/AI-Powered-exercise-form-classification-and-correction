@@ -10,7 +10,7 @@ SEQUENCE_LENGTH = 30
 NUM_LANDMARKS = 33
 NUM_DIMS = 4
 INPUT_SIZE = NUM_LANDMARKS * NUM_DIMS
-DATA_DIR = Path.cwd() / "data2"
+DATA_DIR = Path.cwd() / "data"
 VIDEO_PATH = Path.cwd() / "videos"
 COLOURS = [(245, 117, 16), (117, 245, 16), (16, 117, 245), (245, 16, 117)]
 
