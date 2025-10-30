@@ -121,8 +121,9 @@ AI-Powered-Exercise-Form-Classification/
 │
 ├── videos/
 │
-├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
+├── requirements.txt            # Python dependencies
+
 
 
 ```
