@@ -114,7 +114,7 @@ AI-Powered-Exercise-Form-Classification/
 │   ├── press_correct/         # Correct shoulder press sequences
 │   └── press_incorrect/       # Incorrect shoulder press sequences
 │
-├── src/                      # Training data directory
+├── src/                     
 │   ├── app.py                      # Main GUI applications
 │   ├── data_collection.py          # Data collection utilities
 │   ├── train_model.py              # Model training pipeline
