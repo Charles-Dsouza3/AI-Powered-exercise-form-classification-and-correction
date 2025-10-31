@@ -287,7 +287,7 @@ python app.py
 
 ## 🧠 Model Performance
 
-### Training Metrics (Example Results)
+### Training Metrics
 ```
 Overall Accuracy: 94.3%
 Macro F1-Score: 0.932
