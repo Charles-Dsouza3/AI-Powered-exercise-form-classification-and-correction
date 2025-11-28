@@ -499,7 +499,7 @@ Contributions are welcome! Please follow these steps:
 
 **Malhar Rane**
 - GitHub: [@MalharRane]([https://github.com/yourusername](https://github.com/MalharRane))
-- Email: malharrane@gmail.com
+- Email: malharane@gmail.com
 - LinkedIn: [Malhar Rane](https://www.linkedin.com/in/malharane/)
 
 ---
